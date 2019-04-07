@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'Roboto', sans-serif;
+    color: #555;
+    background: #f1f1f1;
+}
+h1, h2, h3, h4, h5, h6
+{
+    color: #333;
+    font-weight: 600;
+    font-family: "Montserrat", "Roboto", sans-serif;
+}
+
+p
+{
+  padding: 10px 0;
+}
+
+.au-container
+{
+  margin: 0 20%;
+}
+
+.btn
+{
+  padding: 10px 20px;
+  background: #1565C0;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  transition: 1s box-shadow;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.btn:focus
+{
+  box-shadow: 0 5px 20px rgba(21, 101, 192, 0.4);
+}
+
+@media screen and (max-width: 1000px)
+{
+  .au-container
+  {
+    margin: 0 1%;
+  }
+  .container
+  {
+    height: 100% !important;
+    box-sizing: border-box;
+  }
+  #app
+  {
+    padding: 1% 0;
+    box-sizing: border-box;
+  }
+}
